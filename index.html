@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do-list</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+</head>
+
+<body>
+    <main>
+        
+        <div class="box">
+            <p>Hello Im </p>
+            <h2 class="p">vikash kumar </h2>
+        </div>
+
+        <div class="input-box">
+            <form action="">
+                <label for="input">
+                    <input type="text" placeholder="write a comment" id="input">
+                    <button type="submit" class="btn">Add</button>
+
+                </label>
+
+            </form>
+            <button class="delete-all-btn">Delete All ToDo</button>
+        </div>
+        <div class="comment-box">
+            <div class="prev-comment"></div>
+
+
+
+            <!-- edit input -->
+            <form action="">
+                <div class="edit-input-box">
+                    <span class="material-symbols-outlined close">
+                        close
+                    </span>
+                    <label for="edit-input"> Edit text
+                        <input type="text" id="edit-input"></label>
+                    <button type="submit" class="update-btn">update</button>
+                </div>
+            </form>
+            <div class="add-comment-msg">
+                <img src="./img/283-2836740_success-icon-transparent-green-success-png-icon.png" alt="save-image">
+                <span> todo sava</span>
+            </div>
+            <div class="delete-comment-msg">
+                <img src="./img/ClipartKey_1611488.png" alt="delete-image">
+                <span> todo has been deleted</span>
+            </div>
+        </div>
+    </main>
+  
+    <script src="script.js"> </script>
+</body>
+
+</html>
